@@ -1,3 +1,7 @@
-body{
+/* #box {
     background-color: blue;
+    color: #fff;
+} */
+.heading {
+    color: red;
 }
