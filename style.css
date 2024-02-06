@@ -1,10 +1,30 @@
-div {
+body{
+    text-align: center;
+}
+ div{
     height: 100px;
     width: 100px;
-    background-image: url("deer.jpg");
-    background-size: cover;
-    color: black;
-    position: fixed;
-    right: 0px;
-    top: 20px;
+    display: inline-block;
+    border: 2px solid black;
 }
+ #container {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+} 
+#Box1 {
+    background-color: aqua;
+}
+#Box2 {
+    background-color: pink;
+}
+#Box3 {
+    background-color: yellow;
+}
+#Box4 {
+    background-color: green;
+}
+#Box5 {
+    background-color: rgb(90, 20, 195);
+} 
