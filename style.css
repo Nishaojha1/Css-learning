@@ -1,29 +1,15 @@
-.navbar {
-    background-color: rgb(200, 182, 218);
-    display: flex;
-    justify-content: space-evenly;
+div {
+    height: 500px;
+    width: 500px;
+    background-color: red;
 }
-a {
-    text-decoration: none;
-    color: black;
-    background-color: aqua;
+@media(max-width:600px){
+    div{
+        background-color: green;
+    }
 }
-li {
-    list-style-type: none;
-    display: inline
-    ;
-}
-.outer {
-    width: 400px;
-    height: 400px;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    /* cross axis we use alignitems */
-    align-items: center; 
-}
-.inner {
-    height: 200px;
-    width: 200px;
-    background-color: green;
+@media(min-width:200px) and (max-width:300px) {
+    div {
+        background-color: orange;
+    }
 }
