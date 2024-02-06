@@ -1,15 +1,9 @@
-div {
+/* div {
     height: 500px;
     width: 500px;
     background-color: red;
+    border: 2px solid black;
 }
-@media(max-width:600px){
-    div{
-        background-color: green;
-    }
-}
-@media(min-width:200px) and (max-width:300px) {
-    div {
-        background-color: orange;
-    }
-}
+div:hover {
+    background-color: pink;
+} */
